@@ -1,0 +1,45 @@
+.footerBtn {
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #5c8d89;
+	padding: 4px 6px;
+	cursor: pointer;
+	border: 0;
+	/* box-shadow: 2px 2px 6px gray; */
+	outline: none;
+	margin-right: 6px;
+}
+
+.footer {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	padding: 15px 5px;
+	box-sizing: border-box;
+	background-color: #71a0a5;
+	border-radius: 0 0 4px 4px;
+}
+
+.footer input[type=checkbox] {
+	width: 15px;
+	height: 15px;
+	vertical-align: top;
+}
+
+.footer .fl {
+	flex: 1;
+}
+
+.footer .fl span {
+	padding-right: 8px;
+	font-size: 12px;
+}
+
+.footer .fl b {
+	font-size: 14px;
+	padding: 0 2px;
+	color: #fff;
+}

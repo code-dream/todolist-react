@@ -1,0 +1,37 @@
+.header {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  padding: 5px 0;
+  background-color: #71a0a5;
+  border-radius: 4px 4px 0 0;
+}
+
+.header input {
+  display: inline-block;
+  width: 94%;
+  line-height: 30px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+}
+
+.header button {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+}
+
+.insertBtn {
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #5c8d89;
+  padding: 4px 6px;
+  cursor: pointer;
+  border: 0;
+  /* box-shadow: 2px 2px 6px gray; */
+  outline: none;
+}
